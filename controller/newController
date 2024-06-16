@@ -1,0 +1,9 @@
+const express = require('express')
+const path = require('path')
+
+
+exports.firstController = (req, res) => {
+    res.render('view', {
+        pageTitle: 'steve title'
+    });
+}
